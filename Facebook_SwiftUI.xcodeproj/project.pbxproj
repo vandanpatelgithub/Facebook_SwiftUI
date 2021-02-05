@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		2B8602C125CBB172000F0DAE /* Facebook_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8602C025CBB172000F0DAE /* Facebook_SwiftUIApp.swift */; };
-		2B8602C325CBB172000F0DAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8602C225CBB172000F0DAE /* ContentView.swift */; };
+		2B8602C325CBB172000F0DAE /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8602C225CBB172000F0DAE /* HomePageView.swift */; };
 		2B8602C525CBB175000F0DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8602C425CBB175000F0DAE /* Assets.xcassets */; };
 		2B8602C825CBB175000F0DAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8602C725CBB175000F0DAE /* Preview Assets.xcassets */; };
+		2B8602D225CBBF61000F0DAE /* FacebookPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8602D125CBBF61000F0DAE /* FacebookPost.swift */; };
+		2BFB64CC25CCFB8600442E52 /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB64CB25CCFB8600442E52 /* StoriesView.swift */; };
+		2BFB64CF25CCFC0B00442E52 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB64CE25CCFC0B00442E52 /* PostModel.swift */; };
+		2BFB64D225CD087E00442E52 /* LikeCommentShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB64D125CD087E00442E52 /* LikeCommentShareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B8602BD25CBB172000F0DAE /* Facebook_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8602C025CBB172000F0DAE /* Facebook_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_SwiftUIApp.swift; sourceTree = "<group>"; };
-		2B8602C225CBB172000F0DAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B8602C225CBB172000F0DAE /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		2B8602C425CBB175000F0DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B8602C725CBB175000F0DAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B8602C925CBB175000F0DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8602D125CBBF61000F0DAE /* FacebookPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookPost.swift; sourceTree = "<group>"; };
+		2BFB64CB25CCFB8600442E52 /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
+		2BFB64CE25CCFC0B00442E52 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		2BFB64D125CD087E00442E52 /* LikeCommentShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCommentShareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				2B8602C025CBB172000F0DAE /* Facebook_SwiftUIApp.swift */,
-				2B8602C225CBB172000F0DAE /* ContentView.swift */,
+				2B8602C225CBB172000F0DAE /* HomePageView.swift */,
 				2B8602C425CBB175000F0DAE /* Assets.xcassets */,
 				2B8602C925CBB175000F0DAE /* Info.plist */,
 				2B8602C625CBB175000F0DAE /* Preview Content */,
+				2B8602D125CBBF61000F0DAE /* FacebookPost.swift */,
+				2BFB64CB25CCFB8600442E52 /* StoriesView.swift */,
+				2BFB64CE25CCFC0B00442E52 /* PostModel.swift */,
+				2BFB64D125CD087E00442E52 /* LikeCommentShareView.swift */,
 			);
 			path = Facebook_SwiftUI;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B8602C325CBB172000F0DAE /* ContentView.swift in Sources */,
+				2BFB64CC25CCFB8600442E52 /* StoriesView.swift in Sources */,
+				2BFB64CF25CCFC0B00442E52 /* PostModel.swift in Sources */,
+				2B8602C325CBB172000F0DAE /* HomePageView.swift in Sources */,
+				2B8602D225CBBF61000F0DAE /* FacebookPost.swift in Sources */,
 				2B8602C125CBB172000F0DAE /* Facebook_SwiftUIApp.swift in Sources */,
+				2BFB64D225CD087E00442E52 /* LikeCommentShareView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
